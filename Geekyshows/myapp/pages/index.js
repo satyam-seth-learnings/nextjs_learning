@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <li><Link href="/product/mobile">Mobile</Link></li>
         <li><Link href="/product/laptop">Laptop</Link></li>
       </ul>
+      <Image src="/images/girl.jpg" height={400} width={400} />
     </div>
   );
 }
