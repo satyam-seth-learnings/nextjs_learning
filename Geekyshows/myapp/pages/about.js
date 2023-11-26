@@ -11,6 +11,10 @@ export default function About() {
                 <li><Link href="/product/mobile">Mobile</Link></li>
                 <li><Link href="/product/laptop">Laptop</Link></li>
             </ul>
+
+            <h2>I have Styled JSX - About Page</h2>
+
+            <h3>I have Global CSS - About Page</h3>
         </div>
     );
 }
