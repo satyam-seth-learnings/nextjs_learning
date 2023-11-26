@@ -8,7 +8,8 @@ export default function Home({data}) {
     <>
       <Title title="Home" />
       <h1>Home Page</h1>
-      {data.map((post, i) => {
+      <div className={styles.container}>
+        {data.map((post, i) => {
           return (
             <div key={i}>
               <h3>{post.title}</h3>
@@ -16,6 +17,7 @@ export default function Home({data}) {
             </div>
           )
         })}
+      </div>
     </>
   )
 }
