@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function About() {
     return (
         <div>
+            <Head><title>About</title></Head>
             <h1>About Page</h1>
             <ul>
                 <li><Link href="/">Home</Link></li>
