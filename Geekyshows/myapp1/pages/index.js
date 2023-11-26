@@ -10,7 +10,19 @@ export default function Home({data}) {
   )
 }
 
-export async function getStaticProps() {
+// export async function getStaticProps() {
+//   // Data Fetching
+//   const res = await fetch("https://jsonplaceholder.typicode.com/posts/5");
+//   const data = await res.json();
+
+//   return {
+//     props: {
+//       data
+//     }
+//   };
+// }
+
+export async function getServerSideProps() {
   // Data Fetching
   const res = await fetch("https://jsonplaceholder.typicode.com/posts/5");
   const data = await res.json();
