@@ -3,3 +3,5 @@
 - [React JS Official Site](https://react.dev/)
 
 - [Next JS Official Site](https://nextjs.org/)
+
+- [JSON Placeholder APIs](https://jsonplaceholder.typicode.com/)
