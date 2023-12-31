@@ -20,7 +20,7 @@ export async function GET(req) {
     const cook2 = cookies();
     console.log("Cookie2:", cook2);
 
-    return NextResponse.json("Hello NextJS API");
+    return NextResponse.json({ "msg": "Hello NextJS API" });
 }
 
 export async function POST(req) {
