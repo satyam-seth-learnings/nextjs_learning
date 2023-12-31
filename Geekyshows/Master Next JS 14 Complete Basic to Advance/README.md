@@ -5,3 +5,5 @@
 - [Next JS Official Site](https://nextjs.org/)
 
 - [JSON Placeholder APIs](https://jsonplaceholder.typicode.com/)
+
+- [Mongoose NPM Package](https://www.npmjs.com/package/mongoose)
