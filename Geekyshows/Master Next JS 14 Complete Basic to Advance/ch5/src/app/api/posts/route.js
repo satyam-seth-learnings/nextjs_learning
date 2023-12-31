@@ -5,8 +5,11 @@ import PostModel from '@/models/Post';
 export async function GET(req) {
     try {
         await connectDB();
-        return NextResponse.json({ "msg": "success" }, { status: 200 })
+        const result = await PostModel.find();
+
+        return NextResponse.json({ "result": result }, { status: 200 })
     } catch (error) {
+        console.log(error);
         return NextResponse.json({ "msg": "something went wrong" }, { status: 400 })
     }
 }
