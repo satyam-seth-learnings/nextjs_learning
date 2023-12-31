@@ -7,5 +7,13 @@ export async function GET(req) {
     const requestHeaders = new Headers(req.headers);
     console.log(requestHeaders);
 
+    // URL Query Params
+    // const { searchParams } = new URL(req.url);
+    const searchParams = req.nextUrl.searchParams;
+    console.log(searchParams);
+    console.log(searchParams.get("search"));
+
+
+
     return NextResponse.json("Hello NextJS API");
 }
