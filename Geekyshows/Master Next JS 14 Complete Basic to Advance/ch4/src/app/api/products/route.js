@@ -22,3 +22,20 @@ export async function GET(req) {
 
     return NextResponse.json("Hello NextJS API");
 }
+
+export async function POST(req) {
+    console.log(req);
+
+    // // Request Body
+    // const res = await req.json();
+    // console.log("ResJSON: ", res);
+
+    // // Form Data
+    // const formData = await req.formData();
+    // console.log("Form Data: ", formData);
+    // console.log("Form Data: ", formData.get('title'));
+    // console.log("Form Data: ", formData.get('body'));
+
+
+    return NextResponse.json("Post Success");
+}
