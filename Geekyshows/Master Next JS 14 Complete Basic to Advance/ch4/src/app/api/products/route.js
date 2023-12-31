@@ -37,5 +37,5 @@ export async function POST(req) {
     // console.log("Form Data: ", formData.get('body'));
 
 
-    return NextResponse.json("Post Success");
+    return NextResponse.json("Post Success", { status: 201 });
 }
