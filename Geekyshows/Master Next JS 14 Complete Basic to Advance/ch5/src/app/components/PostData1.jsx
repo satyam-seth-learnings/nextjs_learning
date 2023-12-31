@@ -30,7 +30,7 @@ const PostData1 = () => {
       Body: <input type="text" name="body" value={formData.body} onChange={handleChange} className="text-black p-2" />
       <br />
       <br />
-      <button type="button" className="p-2 bg-rose-600">Submit</button>
+      <button type="submit" className="p-2 bg-rose-600">Submit</button>
     </form>
   );
 };
