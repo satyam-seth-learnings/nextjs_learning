@@ -1,5 +1,6 @@
 import LearnClientComponent from '@/components/LearnClientComponent';
 import LearnServerComponent from '@/components/LearnServerComponent';
+import LearnUseGlobalCSS from '@/components/LearnUseGlobalCSS';
 import LearnLink from '@/components/LearnLink';
 import LearnUseRouter from '@/components/LearnUseRouter';
 
@@ -9,7 +10,8 @@ export default function Home() {
       {/* <LearnLink /> */}
       {/* <LearnUseRouter /> */}
       {/* <LearnServerComponent /> */}
-      <LearnClientComponent />
+      {/* <LearnClientComponent /> */}
+      <LearnUseGlobalCSS />
     </main>
   )
 }
