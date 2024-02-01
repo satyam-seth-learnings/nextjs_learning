@@ -1,1 +1,1 @@
-# nextjs_learning
+[Next JS Official Site](https://nextjs.org/)
